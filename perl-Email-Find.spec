@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Find
 Summary:	Email::Find - Find RFC 822 email addresses in plain text
-#Summary(pl):	
+Summary(pl):	Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tek¶cie
 Name:		perl-Email-Find
 Version:	0.09
 Release:	1
@@ -26,13 +26,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Email::Find is a module for finding a _subset_ of RFC 822 email addresses
-in arbitrary text.  The addresses it finds are not guaranteed to exist
-or even actually be email addresses at all, but they will be valid RFC
-822 syntax.
+Email::Find is a module for finding a _subset_ of RFC 822 email
+addresses in arbitrary text. The addresses it finds are not guaranteed
+to exist or even actually be email addresses at all, but they will be
+valid RFC 822 syntax.
 
-# %description -l pl
-# TODO
+%description -l pl
+Email::Font to modu³ do wyszukiwania _podzbioru_ adresów pocztowych
+RFC 822 w dowolnym tek¶cie. Nie ma gwarancji, ¿e znalezione adresy
+bêd± istnia³y lub nawet faktycznie bêd± adresami pocztowymi, ale bêd±
+mia³y sk³adnie zgodn± z RFC 822.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
