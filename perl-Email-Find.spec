@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Email
-%define	pnam	Find
+%define		pdir	Email
+%define		pnam	Find
 Summary:	Email::Find - find RFC 822 email addresses in plain text
 Summary(pl):	Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tek¶cie
 Name:		perl-Email-Find
