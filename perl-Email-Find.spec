@@ -11,7 +11,7 @@ Name:		perl-Email-Find
 Version:	0.09
 Release:	1
 # same as perl
-License:	GPL/Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	988182c9b5ec80861ee3749a434104ea
