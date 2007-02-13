@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Find
 Summary:	Email::Find - find RFC 822 email addresses in plain text
-Summary(pl.UTF-8):   Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tekście
+Summary(pl.UTF-8):	Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tekście
 Name:		perl-Email-Find
 Version:	0.09
 Release:	1
