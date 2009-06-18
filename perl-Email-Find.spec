@@ -8,13 +8,13 @@
 Summary:	Email::Find - find RFC 822 email addresses in plain text
 Summary(pl.UTF-8):	Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tekście
 Name:		perl-Email-Find
-Version:	0.09
-Release:	2
+Version:	0.10
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	988182c9b5ec80861ee3749a434104ea
+# Source0-md5:	b38339e6c4ef0a13818195d50a193545
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
