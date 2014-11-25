@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Email
 %define		pnam	Find
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Find - find RFC 822 email addresses in plain text
 Summary(pl.UTF-8):	Email::Find - wyszukiwanie adresów pocztowych RFC 822 w czystym tekście
 Name:		perl-Email-Find
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b38339e6c4ef0a13818195d50a193545
+URL:		http://search.cpan.org/dist/Email-Find/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
